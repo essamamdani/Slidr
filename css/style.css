@@ -1,0 +1,17 @@
+ul {
+    padding: 0;
+}
+
+li {
+    display: none;
+    list-style: none;
+
+}
+
+li.active {
+    display: none;
+}
+
+li img {
+    width:100%;
+}
