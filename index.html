@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Slider</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-2.0.2.min.js" type="text/javascript"></script>
+    <script src="jscript/app.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="col-md-12">
+        <h2>Slider jQuery Plugin</h2>
+        <ul id="slider">
+            <li><img src="img/about-office-slide-bikerack-800x500.jpg" alt=""/></li>
+            <li><img src="img/about-office-slide-bookcase-800x500.jpg" alt=""/></li>
+            <li><img src="img/about-office-slide-bikerack-800x500 (1).jpg" alt=""/></li>
+            <li><img src="img/about-office-slide-pingpong2-800x500.jpg" alt=""/></li>
+        </ul>
+    </div>
+</div>
+<script>
+    $("#slider").slider({fadeOutSpeed: 100, fadeInSpeed: 200});
+</script>
+</body>
+</html>
